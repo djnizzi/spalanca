@@ -1,0 +1,18 @@
+<?php ?>
+In tempi record, dopo il relativo successo del Totocempions 11|12 (soprattutto mio e del Chelsea), |spalanca|dot|com| è estasiato di offrirvi un'ennesimo toto calcistico, in vista dell'imminente Iuro 2012 circondato da polemiche sul fatto che in Ucraina non sono propriamente politically correct! C'è chi vuole boicottare... ma smettetela<br>
+  <br><br>
+ Per partecipare al gioco è necessario essere iscritti a |spalanca|dot|com|. Ci stiamo stancando di ripeterlo: l'iscrizione è gratuita e anonima. Ci si iscrive <a href=http://www.spalanca.com/signup.php target=_blank>CLICCANDO QUI</a>. Anche la semplice consultazione alla sezione <b>TOTOIURO12</b> sarà consentita solo agli iscritti. Per partecipare al gioco è necessario compilare in ogni sua parte la scheda previsioni. E rispetto al totocempions è una passeggiata, dai dai, ci sono solotanto solo 24 partite nei gironi. La scheda è personale e unica per ogni partecipante, va compilata prima delle ore <b>18.00 del 08/06/2012</b>, ed entro quella data sarà possibile modificarla. Se un iscritto ha già pubblicato la sua scheda e tenta di pubblicarne una nuova questa andrà a sovrascrivere la scheda precedente. La scheda non è segreta, sarà visibile a tutti gli iscritti (stampate la mia prima della prima partita, se no dite che baro). Ogni personaggio di |spalanca|dot|com| che compila la scheda si considerà partecipante al gioco. 
+  <br><br>
+La scheda comprende tre sezioni da compilare sulla stessa maschera: nella prima sezione dovrà essere indicato un risultato e un segno (1, X o 2) per ogni partita della fase dei gironi. Il risultato e il segno di una stessa partita possono anche essere non coerenti. Il programma è quello ufficiale pubblicato sul sito <a href=http://www.uefa.com/uefaeuro/index.html target=iteu>http://www.uefa.com/uefaeuro</a>.
+Ogni segno esatto vale 1 punto, ogni risultato esatto vale 4 punti (come nelle ultime edizioni del totocempions).<br>
+Nella seconda sezione dovranno essere indicate le 8 squadre che andranno alla seconda fase, e le 4 che andranno in semifinale, le 2 finaliste e la squadra campione. Queste previsioni possono anche non essere coerenti tra loro e con i risultati indicati nella prima sezione (ad. es. posso indicare la Spagna tra le 4 semifinaliste pur non avendola indicata tra le squadre qualificate dai gironi, oppure non so, mettere 4 squadre dello stesso girone tra quelle che passano). 
+Ogni squadra qualificata ai quarti dà 20 punti. Ogni squadra qualificata alle semifinali dà 30 punti. Ogni finalista 40 punti. La vincitrice 60 punti!<br>
+Nella terza sezione dovranno essere indicati 5 giocatori diversi da scegliere nelle rose delle 16 squadre. Ogni gol segnato da ognuno di questi 5 vale 3 punti. Gli autogol ovviamente non portano punti.
+Dovrà inoltre essere indicato il nome di un giocatore che verrà espulso. L'eventuale espulsione varrà ben 20 punti, ovviamente solo una volta.
+<br>
+ <br>
+L'inserimento dei risultati e dei marcatori di ogni partita avverrà appena possibile a cura degli administrator di |spalanca|dot|com| con riferimento ai dati pubblicati sul sito <a href=http://www.uefa.com/uefaeuro/index.html target=iteu>http://www.uefa.com/uefaeuro</a>. I punteggi dei partecipanti al Totoiuro12 saranno aggiornati in base a risultati e marcatori in automatico 
+<br><br>
+In ogni momento sarà possibile per i partecipanti visualizzare la classifica aggiornata all'ultima partita degli iscritti al gioco (a punti ovviamente).<br><br>
+Cosa si vince? In teoria una birra a testa dai perdenti al vincitore. In teoria...
+ <?php ?>
