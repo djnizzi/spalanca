@@ -1,0 +1,22 @@
+body {
+	font: 10px/normal Verdana, Arial, Helvetica, sans-serif;
+margin-left: 0px;
+	background: #000000 url(bk.jpg);
+vertical-align: middle;
+text-align: center;
+	scrollbar-arrow-color: #FF7200;
+	scrollbar-base-color: #303030;
+	scrollbar-darkshadow-color: #303030;
+	scrollbar-face-color: #303030;
+	scrollbar-highlight-color: #FF7200;
+	scrollbar-shadow-color: #FF7200;
+	scrollbar-track-color:#ff7300;
+
+}
+
+ img
+{
+
+	border: 1px solid #303030;
+	vertical-align: middle; 
+}

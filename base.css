@@ -1,0 +1,188 @@
+body {
+	font: 10px/normal Verdana, Arial, Helvetica, sans-serif;
+	color: #606060;
+	background-color: #fcdcb5;
+			margin: 0px 0px 0px 0px;
+		padding:0px;
+
+}
+.tabhead {
+	background-image: url(dhb.gif);
+	font: 10px/normal Verdana, Arial, Helvetica, sans-serif;
+		vertical-align: top;
+}
+.tabhead img {
+	border: 0px;
+		vertical-align: top;
+}
+img
+{
+	text-decoration: none;
+	border: 1px solid #303030;
+	vertical-align: middle 
+}
+
+.nota {
+	font: 10px/normal Verdana, Arial, Helvetica, sans-serif;
+	color: #B86703;
+	font-style: italic;
+}
+.buttons { margin-top: 1px; margin-right: 1px; margin-bottom: 1px; margin-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px; padding-left: 1px;  clip:  rect(   ); font-size: 10px; height: 20px;  background: url(but.gif);  
+ color: #000000;
+ border-left: 1px solid #CCCCCC; 
+  border-top: 1px solid #CCCCCC;  
+   border-right: 1px solid #303030;  
+	 border-bottom: 1px solid #303030; 
+	 font-weight: bold    }
+	 .tabsep {
+	background-image: url(s.gif);
+	height: 1px;
+}
+.allstuff  {
+	font: 10px/normal Verdana, Arial, Helvetica, sans-serif;}
+
+a
+{
+	text-decoration: none;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+}
+a:hover
+{
+text-decoration: none;
+color: #FF7300;
+}
+
+.ute {
+	margin: 4px;
+	padding: 0px;
+	border: 0px;
+	width: auto;
+	font: 10px/normal Verdana, Arial, Helvetica, sans-serif;
+}
+.ute img {
+	text-decoration: none;
+	border: 0px;
+	vertical-align: middle 
+}
+.con {
+	margin: 4px;
+	padding: 0px;
+	border: 0px;
+	width: auto;
+	font: 10px/normal Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+
+.titu {
+	font: 10px/normal Verdana, Arial, Helvetica, sans-serif;
+	background-color: #303030;
+	color: #FF7300;
+	font-weight: bold;
+	padding-top: 0px;
+	padding-left: 7px;
+	padding-right: 0px;
+	padding-bottom: 2px;
+	border: 0px;
+	
+}
+
+.titi {
+background-image: url(titibg.gif);
+	font: 10px/normal Verdana, Arial, Helvetica, sans-serif;
+	height: 20px;
+	padding-top: 3px;
+	padding-left: 4px;
+	padding-right: 0px;
+	padding-bottom: 4px;
+	border: 0px;
+}
+.ava {
+background-image: url(avabg.gif);
+	padding: 2px;
+	border: 0px;
+	width: 50px;}
+	.ava img {
+		object-fit: cover;
+		width: 50px;
+		height: 50px;
+}
+.fields {
+	background-image: url(fibg.gif);
+	border: 1px inset;
+}
+.inputs {
+	background-image: url(inbg.gif);
+	border: 1px inset;
+}
+
+.forumlist {
+	background-color: #fcdcb5;
+}
+.forumlist ul
+{
+list-style-type: none;
+margin: 0;
+padding: 0;
+
+}
+.forumlist a
+{
+	display: block;
+	text-decoration: none;
+		background-image: url(divconbg.gif);
+	height: 54px;
+	font-size: 10px;
+	font-weight: bold;
+	vertical-align: middle
+}
+.forumlist a:hover
+{
+
+text-decoration: none;
+	background-image: url(divconbg2.gif);
+color: #FF7300;
+}
+.forumlist img
+{
+	text-decoration: none;
+	border: 0px;
+	vertical-align: middle; 
+	margin: 2px;
+	float: left;
+}
+
+
+.desc {
+			color: #606060;
+			font-weight: normal;
+		}
+.tabsepv {
+	background-image: url(vs.gif);
+	width: 3px;
+}
+.robbe {
+	vertical-align: middle;
+	text-align: center;
+	width: 33%;
+	height: 180px;
+}
+.titsel {
+	font: 10px/normal Verdana, Arial, Helvetica, sans-serif;
+	background-color: #303030;
+	color: #FF7300;
+	border: 1px inset;
+}
+.titbut {
+	font: 10px/normal Verdana, Arial, Helvetica, sans-serif;
+	background-color: #303030;
+	color: #FF7300;
+	border: 1px outset;
+}
+.userthumb {
+	object-fit: cover;
+	width: 50px;
+	height: 50px;
+  }

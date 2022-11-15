@@ -1,0 +1,80 @@
+body { background-attachment: fixed;   font-family: Verdana; background-image: url(bg.jpg);  background-color: #ffffff;  margin-bottom: 0;  margin-left: 0;  margin-right: 0;  margin-top: 0;  scrollbar-base-color: #cccccc;  scrollbar-darkshadow-color: #ffffff;  scrollbar-face-color: #cccccc;  scrollbar-arrow-color: #ff7300;  scrollbar-highlight-color: #cccccc;  scrollbar-shadow-color: #cccccc;  scrollbar-3dlight-color: #ffffff;  scrollbar-track-color: #999999;                }
+a { color: #643200; font-size: 10px; text-decoration: none; }
+a:hover {  color: #FF7300; text-decoration: underline; }
+.srcfld { border: 1px solid #FFFFFF;  font-family: Verdana;  font-size: 10px;  background-color: #C75A00;  height: 17px;  width: 88px;  color: #ffffff;    }
+.hometop1 { background-color: #ff7300; width: 79px; height: 79px;  text-align:center;  }
+.hometop2 { background-color: #FF973D; width: 79px; height: 79px;   text-align:center; }
+.hometop3 { background-color: #FFB473; width: 79px; height: 79px;  text-align:center;  }
+.hometop4 { background-color: #FFD4AF; width: 79px; height: 79px;  text-align:center;  }
+.hometop5 { background-color: #FFEAD8; width: 79px; height: 79px;  text-align:center;  }
+.homelat1 { background-color: #2C2C2C; width: 99px; height: 99px; text-align:center; }
+.homelat2 { background-color: #5C5C5C; width: 99px; height: 99px;  text-align:center;  }
+.homelat3 { background-color: #8D8D8D; width: 99px; height: 99px; text-align:center;   }
+.homelat4 { background-color: #BBBBBB; width: 99px; height: 99px;  text-align:center;  }
+.homelat5 { background-color: #E4E4E4; width: 99px; height: 99px;  text-align:center;  }
+
+.homeran { background-color: #FFFFFF; width: 99px; height: 99px;  text-align:center;  }
+.galbox {width: 139px; height: 139px; text-align: center; }
+.subbox1 { font-size: 11px; background-color: #BBBBBB; height: 59px;  }
+.subbox2 { font-size: 11px; background-color: #CCCCCC; height: 59px;  }
+.subbox3 { font-size: 11px; background-color: #DDDDDD; height: 239px;  }
+.subbox4 { font-size: 11px; background-color: #EEEEEE; height: 59px; text-align: center; }
+.rulesbox { font-size: 10px; background-color: #CCCCCC; height: 419px; }
+
+
+.subfld1 { border: 1px solid #FFFFFF;  font-family: Verdana;  
+font-size: 11px;  background-color: #BBBBBB;  height: 15px;  width: 500px;  color: #000000;    }
+.subfld2 { border: 1px solid #FFFFFF;  font-family: Verdana;  
+font-size: 11px;  background-color: #CCCCCC;  height: 18px;  width: 500px;  color: #000000;    }
+.subfld3 { border: 1px solid #FFFFFF;  font-family: Verdana;  
+font-size: 11px;  background-color: #DDDDDD;  height: 189px;  width: 500px;  color: #000000;    }
+.subfld4 { border: 1px solid #FFFFFF;  font-family: Verdana;  
+font-size: 11px;  background-color: #EEEEEE;  height: 18px;  width: 500px;  color: #000000;  font-weight: bold;   }
+.fontreg {
+	font-size: 10px; color: #FFFFFF
+}
+.entry { border: 1px solid #FFFFFF; }
+.entry1 { font-size: 12px; font-weight: bold; background-color: #BBBBBB; height: 39px; width: 539px; }
+.entry2 { font-size: 11px; background-color: #CCCCCC; height: 299px;  width: 539px;text-align: center;}
+.entry3 { font-size: 10px; text-align: left; background-color: #DDDDDD; height: 79px;  width: 539px; vertical-align:top;}
+.entry4 { font-size: 20px; font-weight: bold; height: 39px;  width: 159px}
+.entry5 { font-size: 10px; text-align: left; background-color:  #EEEEEE; height: 299px; width: 159px ; vertical-align:top;}
+.entry6 { font-size: 10px; background-color: #E4E4E4; height: 79px;  width: 159px;text-align: center;vertical-align:middle;}
+.entry7 { font-size: 10px; text-align: right; }
+.entry9 { font-size: 10px; }
+.entry8 { font-size: 12px; text-align: center; font-weight:bold; }
+.entry7 a{ color: #000000; font-size: 10px; text-decoration: none; }
+.entry7 a:hover{ color: #FF7300; text-decoration: underline; }
+.entfld1 { border: 1px solid #FFFFFF;  font-family: Verdana;  
+font-size: 10px;  background-color: #E4E4E4;  height: 17px;  width: 28px;  color: #000000;    }
+.entfld2 { border: 1px solid #FFFFFF;  font-family: Verdana;  
+font-size: 10px;  background-color: #E4E4E4;  height: 50px;  width: 150px;  color: #000000;    }
+.entfld3 { border: 0px solid #FFFFFF; font-weight: bold; font-family: Verdana;  
+font-size: 10px;  background-color: #999999;  height: 21px;  width: 33px;  color: #ffffff;    }
+
+#concom {
+	height: 79px; width: 539px;
+	overflow: auto;
+	position: absolute;
+}
+#votcom  {
+	height: 299px; width: 159px;
+	overflow-y: auto;
+	position: absolute;
+}
+.votcomh {
+	font-size: 10px; color: #FFFFFF;
+	background: #999999; 
+}
+.votcomv {
+	font-size: 10px; color: #000000; text-align: center; width:30px; 
+}
+.votcomc {
+	font-size: 10px;
+	text-align: left;
+	background: #EEEEEE;
+}
+
+.whitepx {
+	background-color: #FFFFFF; height: 1px;
+}

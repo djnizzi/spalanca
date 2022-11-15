@@ -1,0 +1,169 @@
+body {
+	font: 10px/normal Verdana, Arial, Helvetica, sans-serif;
+	background: #33CC00;
+			margin: 10px 0px 10px 10px;
+		padding:0px;
+	scrollbar-3dlight-color: #66FF33;
+	scrollbar-arrow-color: #99ff66;
+	scrollbar-base-color: #33cc00;
+	scrollbar-darkshadow-color: #33cc00;
+	scrollbar-face-color: #33cc00;
+	scrollbar-highlight-color: #99ff66;
+	scrollbar-shadow-color: #ffffff;
+	scrollbar-track-color: #33cc00;
+			background-image : url(images/sm_grass.jpg);
+}
+	
+a {
+	text-decoration:none;
+	font-weight:bold;
+	color: #fff;
+}
+a:hover{
+	color: #99ff66;
+		text-decoration: underline;
+}
+
+.masblack {
+	border : 1px solid #fff;
+		font: 10px/normal Verdana, Arial, Helvetica, sans-serif;
+	background : #ffffff;
+		font-weight:bold;
+	color: #000;
+		padding-bottom : 1px;
+		padding-left : 1px;
+		padding-right : 1px;
+		padding-top : 1px;
+
+}
+.mastika {
+	font: normal bold 14px Arial, Helvetica, sans-serif;
+	color: #99ff66;
+}
+
+.mastika a {
+	color: #99ff66;
+}
+
+.mastika a:hover {
+	text-decoration : underline;
+}
+
+.masblack a {
+	color: #33cc00;
+}
+
+.masblack a:hover {
+	color: #99ff66;
+		text-decoration : underline;
+}
+
+.mastoxic {
+	border : 1px solid #fff;
+	background : #99ff66;
+	font: 10px/normal Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+		padding-bottom : 1px;
+		padding-left : 1px;
+		padding-right : 1px;
+		padding-top : 1px;
+
+}
+.mastoxic3 {
+	border : 1px solid #fff;
+	background : #99ff66;
+	font: 10px/normal Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+		padding-bottom : 1px;
+		padding-left : 1px;
+		padding-right : 1px;
+		padding-top : 1px;
+
+}
+.mastoxic2 {
+	background : #99ff66;
+	font: 10px/normal Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+		}
+
+.mastoxic a {
+	font: normal bold 10px Verdana, Arial, Helvetica, sans-serif;
+	color: #33cc00;
+}
+
+.mastoxic a:hover {
+	font: normal bold 10px Verdana, Arial, Helvetica, sans-serif;
+	color: #ffffff;
+			text-decoration : underline;
+}
+
+.mascont {
+	border : 1px solid #ffffff;
+	background : #66ff33;
+	color: #000;
+		font: 10px/normal Verdana, Arial, Helvetica, sans-serif;
+		padding-bottom : 1px;
+		padding-left : 1px;
+		padding-right : 1px;
+		padding-top : 1px;
+}
+.mascont3 {
+	border : 1px solid #ffffff;
+	background : #66ff33;
+	color: #000;
+		font: 10px/normal Verdana, Arial, Helvetica, sans-serif;
+		padding-bottom : 1px;
+		padding-left : 1px;
+		padding-right : 1px;
+		padding-top : 1px;
+}
+.mascont2 {
+	background : #66ff33;
+	color: #000;
+		font: 10px/normal Verdana, Arial, Helvetica, sans-serif;
+		padding-bottom : 1px;
+		padding-left : 1px;
+		padding-right : 1px;
+		padding-top : 1px;
+}
+.mascont2 a {
+	color: #33cc00;
+}
+
+.mascont2 a:hover {
+	color: #fff;
+			text-decoration : underline;
+}
+.mascont a {
+	color: #fff;
+}
+
+.mascont a:hover {
+	color: #33cc00;
+			text-decoration : underline;
+}
+.massim {
+		font: 10px/normal Verdana, Arial, Helvetica, sans-serif;
+					color: #fff;
+}
+
+.masall {
+	border : 1px solid #fff;
+			font: 10px/normal Verdana, Arial, Helvetica, sans-serif;
+		font-weight:bold;
+			color: #fff;
+
+}
+
+.greek {
+			font: 10px/normal Verdana, Arial, Helvetica, sans-serif;
+	color:#66ff33;
+	}
+	
+ol {
+	margin-right:40px;
+	}
+li {
+	margin-bottom:10px;
+	}
+.buttons {  background-color: #33cc00; 			color: #fff;margin-top: 1px; margin-right: 1px; margin-bottom: 1px; margin-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px; padding-left: 1px; border: 1px #fff solid; clip:  rect(   ); font-size: 10px; height: 20px}
