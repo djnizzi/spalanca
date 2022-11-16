@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<cooliris-quick version="1.0">
+  <src>^http\:\/\/www\.spalanca\.com\/robba\/thumbs\/(\d+?)t\-robba\.jpg$</src>
+  <dst>http://www.spalanca.com/thumb.php?pid={1}&amp;xsize=300</dst>
+</cooliris-quick>
+

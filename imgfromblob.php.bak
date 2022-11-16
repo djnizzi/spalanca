@@ -1,0 +1,20 @@
+<?php
+$mynameis="$PHP_SELF";
+include ("config.php");
+include ("connect.php");
+include ("cookie.php");
+$howmuch = 1;
+$query = mysql_query ("SELECT * FROM users");
+while ($row = mysql_fetch_object ($query)) {
+    print (" $howmuch ");
+    $howmuch = $howmuch + 1;
+    print ("working on $row->id<br>");
+
+   if ($row->filename!=null){
+       $file = 'avatars/'.preg_replace("/[^A-Za-z0-9 ]/", '', $row->id).'-'.$row->filename;
+       $thefile = fopen($file,'w');
+       fwrite($thefile, $row->bindata);
+    
+    }
+}
+?>
