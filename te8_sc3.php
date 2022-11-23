@@ -12,7 +12,11 @@ mysql_select_db($database2);
   $result=MYSQL_QUERY("SELECT tc_points FROM te8_playaz WHERE tc_pid='$zid'");
 if (@MYSQL_RESULT($result,0,"tc_points")==null){
 	$tc_points="X";} else {$tc_points=@MYSQL_RESULT($result,0,"tc_points");}
-print("	    <td class=masblack valign=top>$zid</td><td background=images/te8_bk.jpg align=right width=78><img src=getdata.php?zid=". urlencode($zid) ."&wht=users border=0  width=50 height=50></td><td class=mascont align=center><b><font size=+3>$tc_points</font></b><br>punti</td>");
+  $thisuid = $zid;
+  mysql_select_db($database);
+  include ("getavatar.php"); 
+  mysql_select_db($database2);
+print("	    <td class=masblack valign=top>$zid</td><td background=images/te8_bk.jpg align=right width=78>". $avatarurl ."</td><td class=mascont align=center><b><font size=+3>$tc_points</font></b><br>punti</td>");
     ?></tr></table></td></tr>
     
      <?php 

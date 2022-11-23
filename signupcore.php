@@ -8,9 +8,13 @@ if (@MYSQL_RESULT($result,0,"id")!=null)
 }else{
 if(isset($chex)){$mailon='Y';}else{$mailon='N';}
 if($icon_name!=""  && $icon_size<65535 && ($icon_type=="image/jpeg" || $icon_type=="image/pjpeg" || $icon_type=="image/gif")){
-$data = addslashes(fread(fopen($icon, "r"), filesize($icon)));
-$result=MYSQL_QUERY("INSERT INTO users (id,pass,email,mailon,bindata,filename,filesize,filetype) ".
-        "VALUES ('$newid',OLD_PASSWORD('$pass'),'$email','$mailon','$data','$icon_name','$icon_size','$icon_type')");
+$filext = ($icon_type=="image/gif" ? ".gif" : ".jpg");
+$newfile = time().$filext;
+$result=MYSQL_QUERY("INSERT INTO users (id,pass,email,mailon,filename,filesize,filetype) ".
+        "VALUES ('$newid',OLD_PASSWORD('$pass'),'$email','$mailon','$newfile','$icon_size','$icon_type')");
+$newfile = rawurlencode(preg_replace("/[^A-Za-z0-9 ]/", '', $newid))."-".$newfile;
+@copy($icon, "avatars/$newfile"); 
+
         $thisuid = $newid;
         include ("getavatar.php"); 
 $licona="<br><br>questa &egrave; la tua bellissima icona<br><br>" . $avatarurl;
@@ -30,8 +34,8 @@ print ("<br>bella, <b>$newid</b>! ora puoi spalancare da brutto anche tu! cosa n
 print ("<br><br>la tua password &egrave; <b>$pass</b> scrivitela, se la dimentichi &egrave; impossibile recuperarla!");
 print ("<br><br>la tua mail &egrave; <b>$email</b>");
 if ($mailon=="N"){
-print (" e hai scelto di non renderla visibile ai frequentatori di spalanca.com");}
-else{print (" e hai scelto di renderla visibile ai frequentatori di spalanca.com al momento della visualizzazione della tua scheda");}
+print (" e hai scelto di non renderla visibile ai frequentatori di spalanca");}
+else{print (" e hai scelto di renderla visibile ai frequentatori di spalanca al momento della visualizzazione della tua scheda");}
 print ($licona . "<br>");
 print ("<br>se non sei contento/a con questi dati potrai sempre modificarli dal pulsante 'gestisciti' una volta loggato/a<br>&nbsp;</td></tr></table>");}
 } else {
@@ -50,7 +54,7 @@ include ("abouthow1.php");
  conferma: <INPUT TYPE=password  class=buttons size=16 NAME="pass"></td></tr>
  <tr><td align=center>e-mail: <INPUT TYPE=text  class=buttons size=25 NAME="email"> <input type="checkbox" name="chex"> visibile</td></tr>
 <tr><td align=center>icona: <input type="file" name="icon" size=61 class=buttons></td></tr>
-<tr><td align=center><INPUT TYPE=SUBMIT  class=buttons NAME="subsig" VALUE="entra nel fantastico mondo di spalanca.com"></td></tr>
+<tr><td align=center><INPUT TYPE=SUBMIT  class=buttons NAME="subsig" VALUE="entra nel fantastico mondo di spalanca"></td></tr>
 </table></form></td></tr></table>
 <?php
 }
@@ -78,8 +82,11 @@ include ("getavatar.php");
 else {
 if(isset($chex)){$mailon='Y';}else{$mailon='N';}
 if($icon_name!=""  && $icon_size<65535 && ($icon_type=="image/jpeg" || $icon_type=="image/pjpeg" || $icon_type=="image/gif")){
-$data = addslashes(fread(fopen($icon, "r"), filesize($icon)));
-$result=MYSQL_QUERY("UPDATE users SET  created=created,email='$email',mailon='$mailon',bindata='$data',filename='$icon_name',filesize='$icon_size',filetype='$icon_type' WHERE id='$zid'");
+  $filext = ($icon_type=="image/gif" ? ".gif" : ".jpg");
+  $newfile = time().$filext;
+  $result=MYSQL_QUERY("UPDATE users SET  created=created,email='$email',mailon='$mailon',filename='$newfile',filesize='$icon_size',filetype='$icon_type' WHERE id='$zid'");
+  $newfile = rawurlencode(preg_replace("/[^A-Za-z0-9 ]/", '', $zid))."-".$newfile;
+  @copy($icon, "avatars/$newfile"); 
 }else{$result=MYSQL_QUERY("UPDATE users SET created=created,email='$email',mailon='$mailon' WHERE id='$zid'");        
 }
  ?>
@@ -101,8 +108,8 @@ print ("<br>la tua nuova password &egrave; <b>$pass</b> scrivitela, se la diment
 }
 print ("<br>la tua mail &egrave; <b>$email</b>");
 if ($mailon=="N"){
-print (" e hai scelto di non renderla visibile ai frequentatori di spalanca.com");}
-else{print (" e hai scelto di renderla visibile ai frequentatori di spalanca.com al momento della visualizzazione della tua scheda");}
+print (" e hai scelto di non renderla visibile ai frequentatori di spalanca");}
+else{print (" e hai scelto di renderla visibile ai frequentatori di spalanca al momento della visualizzazione della tua scheda");}
 print ("<br><br>se non sei contento/a con questi dati potrai sempre modificarli dal pulsante 'gestisciti' una volta loggato/a<br>&nbsp;</td></tr></table>");
 }
 }

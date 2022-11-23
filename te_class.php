@@ -17,7 +17,10 @@ include ("te_nav.php"); ?>
   $result=MYSQL_QUERY("SELECT sm_points, sm_pid FROM te_playaz ORDER BY sm_points DESC");
 if ($myrow = mysql_fetch_array($result)) {
 	do{
-printf("<tr><td class=masblack valign=top><a href=te_scheda.php?zid=%s>%s</a></td><td background=images/te_bk.jpg align=right width=78><a href=te_scheda.php?zid=%s><img src=getdata.php?zid=%s&wht=users border=0  width=50 height=50></a></td><td class=mascont align=center><b><font size=+3>%s</font></b><br>punti</td></tr>",urlencode($myrow["sm_pid"]),$myrow["sm_pid"],urlencode($myrow["sm_pid"]),urlencode($myrow["sm_pid"]),$myrow["sm_points"]);
+    $thisuid = $myrow["sm_pid"];
+    include ("getavatar.php"); 
+printf("<tr><td class=masblack valign=top><a href=m2_scheda.php?zid=%s>%s</a></td><td background=images/te_bk.jpg align=right width=78><a href=te_scheda.php?zid=%s>%s</a></td><td class=mascont align=center><b><font size=+3>%s</font></b><br>punti</td></tr>",urlencode($myrow["sm_pid"]),$myrow["sm_pid"],urlencode($myrow["sm_pid"]),$avatarurl,$myrow["sm_points"]);
+
 } while  ($myrow = mysql_fetch_array($result));} ?>
 	</table></td>
 	

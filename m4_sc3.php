@@ -10,14 +10,18 @@
   $result=MYSQL_QUERY("SELECT sm_points FROM m4_playaz WHERE sm_pid='$zid'");
  if (@MYSQL_RESULT($result,0,"sm_points")==null) {
 	$sm_points="X";} else {$sm_points=@MYSQL_RESULT($result,0,"sm_points");}
-print("	    <td class=masblack valign=top>$zid</td><td background=images/m4_bk.jpg align=right width=78><img src=getdata.php?zid=". urlencode($zid) ."&wht=users border=0  width=50 height=50></td><td class=mascont align=center><b><font size=+3>$sm_points</font></b><br>punti</td>");
+  $thisuid = $zid;
+  mysql_select_db($database);
+  include ("getavatar.php"); 
+  mysql_select_db($database2);
+print("	    <td class=masblack valign=top>$zid</td><td background=images/m4_bk.jpg align=right width=78>". $avatarurl ."</td><td class=mascont align=center><b><font size=+3>$sm_points</font></b><br>punti</td>");
     ?></tr></table></td></tr>
  <?php 
    $result=MYSQL_QUERY("SELECT sm_points FROM m4_playaz WHERE sm_pid='$zid'");
 if (@MYSQL_RESULT($result,0,"sm_points")==null){
  ?>  
       <tr>
-    <td class="mastoxic" align=center>questo personaggio non ha ancora compilato la scheda di partecipazione al TotoFußballWeltmeisterschaft 2006
+    <td class="mastoxic" align=center>questo personaggio non ha ancora compilato la scheda di partecipazione al TotoFuï¿½ballWeltmeisterschaft 2006
      </td></tr></table>
  <?php } else {   ?><tr>
     <td class="mastoxic" align=center><table width="90%" border="0" cellspacing="1" cellpadding="1" align=center>

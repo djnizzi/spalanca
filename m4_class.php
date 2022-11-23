@@ -18,7 +18,11 @@ include ("m4_nav.php"); ?>
   $result=MYSQL_QUERY("SELECT sm_points, sm_pid FROM m4_playaz ORDER BY sm_points DESC");
 if ($myrow = mysql_fetch_array($result)) {
 	do{
-printf("<tr><td class=masblack valign=top><a href=m4_scheda.php?zid=%s>%s</a></td><td background=images/m4_bk.jpg align=right width=78><a href=m4_scheda.php?zid=%s><img src=getdata.php?zid=%s&wht=users border=0  width=50 height=50></a></td><td class=mascont align=center><b><font size=+3>%s</font></b><br>punti</td></tr>",urlencode($myrow["sm_pid"]),$myrow["sm_pid"],urlencode($myrow["sm_pid"]),urlencode($myrow["sm_pid"]),$myrow["sm_points"]);
+    $thisuid = $myrow["sm_pid"];
+    mysql_select_db($database);
+    include ("getavatar.php"); 
+    mysql_select_db($database2);
+printf("<tr><td class=masblack valign=top><a href=m3_scheda.php?zid=%s>%s</a></td><td background=images/m4_bk.jpg align=right width=78><a href=m4_scheda.php?zid=%s>%s</a></td><td class=mascont align=center><b><font size=+3>%s</font></b><br>punti</td></tr>",urlencode($myrow["sm_pid"]),$myrow["sm_pid"],urlencode($myrow["sm_pid"]),$avatarurl,$myrow["sm_points"]);
 } while  ($myrow = mysql_fetch_array($result));} ?>
 	</table></td>
     <td class="mastoxic3" align=center><table border="0" cellpadding="3" cellspacing=1 align=center >

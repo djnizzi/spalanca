@@ -4,4 +4,16 @@ robba/
 contest/spc04
 contest2/spc2
 misc/
-wordpress/
+wordpress/wp-content/uploads/.alsa-rpc
+wordpress/wp-content/uploads/2010/
+wordpress/wp-content/uploads/2011/
+wordpress/wp-content/uploads/2012/
+wordpress/wp-content/uploads/2013/
+wordpress/wp-content/uploads/2014/
+wordpress/wp-content/uploads/2015/
+wordpress/wp-content/plugins/
+wordpress/wp-content/themes/
+wordpress/wp-content/*.tmp
+wordpress/wp-includes/
+wordpress/.htaccess
+wordpress/wp-admin/images/

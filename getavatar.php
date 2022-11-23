@@ -1,4 +1,5 @@
 <?php
+
     $query = "SELECT id,filename FROM users WHERE id='$thisuid'";
     $resultuid = @MYSQL_QUERY($query);
     if (@MYSQL_RESULT($resultuid,0,"filename")=='') {
@@ -9,4 +10,5 @@
 
 
   }
+
 ?>

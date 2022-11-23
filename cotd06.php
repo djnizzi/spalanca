@@ -103,7 +103,7 @@ print ("</table></td></tr>");
 else if (isset($cotdid) && isset($edico)) {
 	$result=MYSQL_QUERY("SELECT cotduid FROM cotd WHERE cotdid='$cotdid'");
 if (@MYSQL_RESULT($result,0,"cotduid")==$id){
-if ($edico==2) {print("<script>alert(\"non possiamo accettare il tuo materiale: non � stato allegato nessun file, file troppo grosso (max 300K) o file di tipo errato (solo jpeg)\");");}
+if ($edico==2) {print("<script>alert(\"non possiamo accettare il tuo materiale: non &egrave; stato allegato nessun file, file troppo grosso (max 300K) o file di tipo errato (solo jpeg)\");");}
  ?>
 <table width=100% cellpadding=0 cellspacing=0 border=0><tr class=tabhead>
 <td width=95%><img src=images/1/dcbam.gif border=0></td><td  class=tabhead width=15><?php echo $hist; ?></td><td width=15  class=tabhead><img src=images/spacer.gif width=15></td></tr>
@@ -112,7 +112,7 @@ $result=MYSQL_QUERY("SELECT cotdalt from cotd WHERE cotdid='$cotdid'");
 $title= @MYSQL_RESULT($result,0,"cotdalt");
 
 ?>
- <tr><td align=center><div class=con><form  enctype="multipart/form-data" method=post name=cotd action=<?php echo $mynameis; ?>?cotdid=<?php echo $cotdid; ?>&save=1  onSubmit="return verCotd(document.cotd);disBut(document.cotd.subcotd)"><span class=con>chi � questa figa:</span> <INPUT TYPE=text  class=inputs size=58 NAME="cotdalt" value="<?php echo $title; ?>"><br><input type="file" name="pbindata" size=61 class=inputs><br><INPUT TYPE=SUBMIT  class=buttons NAME="subcotd" VALUE="invia"></form></td></tr></table>
+ <tr><td align=center><div class=con><form  enctype="multipart/form-data" method=post name=cotd action=<?php echo $mynameis; ?>?cotdid=<?php echo $cotdid; ?>&save=1  onSubmit="return verCotd(document.cotd);disBut(document.cotd.subcotd)"><span class=con>chi &egrave; questa figa:</span> <INPUT TYPE=text  class=inputs size=58 NAME="cotdalt" value="<?php echo $title; ?>"><br><input type="file" name="pbindata" size=61 class=inputs><br><INPUT TYPE=SUBMIT  class=buttons NAME="subcotd" VALUE="invia"></form></td></tr></table>
 <?php
 
 }}
@@ -207,7 +207,7 @@ else
 if (isset($newcotd)){	 ?><table width=100% cellpadding=0 cellspacing=0 border=0><tr class=tabhead>
 <td width=95%><img src=images/1/dcbam.gif border=0></td></tr><tr><td align=center><?php } else { ?><tr><td align=center colspan=7><?php } ?>
 
-<div class=con><form  enctype="multipart/form-data" method=post name=cotd action=<?php echo $mynameis; ?>  onSubmit="return verCotd(document.cotd);disBut(document.cotd.subcotd)"><span class=con>chi � questa figa:</span> <INPUT TYPE=text  class=inputs size=58 NAME="cotdalt" ><br><input type="file" name="pbindata" size=61 class=inputs><br><INPUT TYPE=SUBMIT  class=buttons NAME="subcotd" VALUE="invia"></form></td></tr></table>
+<div class=con><form  enctype="multipart/form-data" method=post name=cotd action=<?php echo $mynameis; ?>  onSubmit="return verCotd(document.cotd);disBut(document.cotd.subcotd)"><span class=con>chi &egrave; questa figa:</span> <INPUT TYPE=text  class=inputs size=58 NAME="cotdalt" ><br><input type="file" name="pbindata" size=61 class=inputs><br><INPUT TYPE=SUBMIT  class=buttons NAME="subcotd" VALUE="invia"></form></td></tr></table>
 
 <?php }else{print("</table>");}}
 }

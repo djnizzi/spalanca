@@ -19,7 +19,11 @@ mysql_select_db($database2);
   $result=MYSQL_QUERY("SELECT tc_points, tc_pid FROM t11_playaz WHERE tc_paid='Y' ORDER BY tc_points DESC");
 if ($myrow = mysql_fetch_array($result)) {
 	do{
-printf("<tr><td class=masblack valign=top><a href=t11_scheda.php?zid=%s>%s</a></td><td background=images/tc_bk.jpg align=right width=78><a href=t11_scheda.php?zid=%s><img src=getdata.php?zid=%s&wht=users border=0  width=50 height=50></a></td><td class=mascont align=center><b><font size=+3>%s</font></b><br>punti</td></tr>",urlencode($myrow["tc_pid"]),$myrow["tc_pid"],urlencode($myrow["tc_pid"]),urlencode($myrow["tc_pid"]),$myrow["tc_points"]);
+    $thisuid = $myrow["tc_pid"];
+    mysql_select_db($database);
+    include ("getavatar.php"); 
+    mysql_select_db($database2);
+printf("<tr><td class=masblack valign=top><a href=t11_scheda.php?zid=%s>%s</a></td><td background=images/tc_bk.jpg align=right width=78><a href=t11_scheda.php?zid=%s>%s</a></td><td class=mascont align=center><b><font size=+3>%s</font></b><br>punti</td></tr>",urlencode($myrow["tc_pid"]),$myrow["tc_pid"],urlencode($myrow["tc_pid"]),$avatarurl,$myrow["tc_points"]);
 } while  ($myrow = mysql_fetch_array($result));} ?>
 	</table></td>
 		
