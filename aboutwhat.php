@@ -8,17 +8,18 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
 </script>
 
 <br>
-|spalanca|dot|com| (ovvero |spalanca|punto|com|) nasce in un giorno imprecisato poco dopo l'apertura
-'ufficiale' annunciata per il 04/04/2002. non importa perchè, ma individuiamo
+spalanca nasce in un giorno imprecisato poco dopo l'apertura
+'ufficiale' annunciata per il 04/04/2002. non importa perch&egrave;, ma individuiamo
 come data di nascita proprio quest'ultima.<br>
 <br>
-|spalanca|dot|com| è una comunità virtuale che ha come base una comunità reale. si propone come strumento
-per i membri di questa comunità, per permettere loro di interagire anche a livello internet. parte con un tot di funzionalità
-ma non si pone limiti ad ampliare le proprie funzioni con il tempo. non è una comunità chiusa, chiunque
-può diventare parte di spalanca iscrivendosi, ovviamente in maniera anonima e gratuita.
-<br><br>|spalanca|dot|com| è solo in italiano.<br><br>
-what's' scianti? beh purtroppo scianti non si può descrivere. scianti is a state of mind!<br><br>
-come ogni sito serio anche |spalanca|dot|com| ha una sua immagine coordinata. intanto abbiamo il
+spalanca &egrave; una comunit&agrave; virtuale che ha come base una comunit&agrave; reale. si propone come strumento
+per i membri di questa comunit&agrave;, per permettere loro di interagire anche a livello internet. parte con un tot di funzionalit&agrave;
+ma non si pone limiti ad ampliare le proprie funzioni con il tempo. non &egrave; una comunit&agrave; chiusa, chiunque
+pu&ograve; diventare parte di spalanca iscrivendosi, ovviamente in maniera anonima e gratuita.
+<br><br>spalanca &egrave; solo in italiano.<br><br>
+se volete essere ispirati: <a href="nizquotes/" target=_blank>NiZQuotes</a><br><br>
+what's' scianti? beh purtroppo scianti non si pu&ograve;; descrivere. scianti is a state of mind!<br><br>
+come ogni sito serio anche spalanca ha una sua immagine coordinata. intanto abbiamo il
 wallpaper ufficiale<br><center><table cellpadding=3 border=0>
    
     <tr><td align=center><font size=1><b>2006
@@ -55,7 +56,7 @@ wallpaper ufficiale<br><center><table cellpadding=3 border=0>
 
   <br>
 </center>
-    se siete così avanti da volerci anche linkare, usate uno dei seguenti pulsanti grafici<br>
+    se siete cos&egrave; avanti da volerci anche linkare, usate uno dei seguenti pulsanti grafici<br>
     <br><table align=center><tr><td><img src=images/button1.gif></td><td><img src=images/button2.gif></td><td><img src=images/button3.gif></td><td><img src=images/button4.gif></td><td><img src=images/button5.gif></td></tr></table><br>
-    <br>contatti: per ora l'unico tuo contatto con |spalanca|dot|com| per qualsiasi motivo è questa e-mail: <a href=mailto:nizzi@spalanca.com>nizzi|at|spalanca|dot|com|</a><br>&nbsp;
+    <br>contatti: per ora l'unico tuo contatto con |spalanca|dot|com| per qualsiasi motivo &egrave; questa e-mail: <a href=mailto:nizzi@spalanca.com>nizzi|at|spalanca|dot|com|</a><br>&nbsp;
 <?php ?>

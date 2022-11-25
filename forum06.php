@@ -136,7 +136,7 @@ $highlander=@MYSQL_RESULT($result3,0,"fuid");
 $thisuid = $highlander;
 include ("getavatar.php"); 
 printf("<li><a href=forum06.php?fid=%s>",$myrow["reply"]);
-printf ("%s%s<br /><span class=desc><strong>%s</strong> messaggi%s</span><br><span class=desc>ultimo messaggio di <strong>%s</strong></span><br><span class=nota>%s</span></a></li>",$avatarurl,$myrow["thread"],@MYSQL_RESULT($result2,0,"msgs"),$pluro,$highlander,$postato);
+printf ("<div class='floatleft'>%s</div><div class='floatleft somepadding'>%s<br><span class=desc><strong>%s</strong> messaggi%s</span><br><span class=desc>ultimo messaggio di <strong>%s</strong></span><br><span class=nota>%s</span></div></a></li>",$avatarurl,$myrow["thread"],@MYSQL_RESULT($result2,0,"msgs"),$pluro,$highlander,$postato);
   print("<table border=0 cellpadding=0 cellspacing=0 width=100%><tr><td class=tabsep></td></tr></table>");
 } while ($myrow = mysql_fetch_array($result));
 }
